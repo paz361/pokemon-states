@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lonely</title>
+    <link rel="stylesheet" href="styles.css">
+ <div id="instructions" style="margin-top: 20px; padding: 10px; border: 1px solid black;">
+        <h3>הוראות שימוש</h3>
+        <p>כדי להשתמש במערכת</p>
+        <ol>
+            <li>לחץ על הכפתור הראשון כדי לבחור מה המצב יעלה</li>
+            <li>לחץ על כפתור נוסף כדי לבחור מה המצב יוריד</li>
+            <li>לחיצה נוספת תאתחל את החיפוש</li>
+        </ol>
+    </div>
+
+</head>
+<body>
+    <div id="header" style="background-color: black; color: white; text-align: center; padding: 10px;">
+        <h1 id="output"> </h1>
+    </div>
+    <div style="display: flex; justify-content: space-between;">
+    <table>
+        <tr>
+            <td><button onclick="boxClicked(1)" class="box">הגנה</button></td>
+            <td><button onclick="boxClicked(2)" class="box">התקפה</button></td>
+            <td><button onclick="boxClicked(3)" class="box">מהירות</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="boxClicked(4)" class="box">הגנה קריטית</button></td>
+            <td><button onclick="boxClicked(5)" class="box">התקפה קריטית</button></td>
+        </tr>
+    </table>
+ <div id="legend" style="margin-left: 20px; padding: 10px; border: 1px solid black;">
+            <h3>מקרא</h3>
+            <div style="display: flex; align-items: center;">
+                <div style="width: 50px; height: 30px; background-color: lightgreen; display: flex; justify-content: center; align-items: center; color: black;">מעלה</div>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <div style="width: 50px; height: 30px; background-color: lightcoral; display: flex; justify-content: center; align-items: center; color: black;">מוריד</div>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <div style="width: 50px; height: 30px; background-color: lightgray; display: flex; justify-content: center; align-items: center; color: black;">ניטרלי</div>
+            </div>
+        </div>
+    </div>
+    <div id="status" style="margin-top: 20px; padding: 10px; border: 1px solid black;">
+        <h3>מצבים</h3>
+        <button onclick="showStatus('ADAMANT')" class="status-button">ADAMANT</button>
+        <button onclick="showStatus('BASHFUL')" class="status-button">BASHFUL</button>
+        <button onclick="showStatus('BRAVE')" class="status-button">BRAVE</button>
+        <button onclick="showStatus('BOLD')" class="status-button">BOLD</button>
+        <button onclick="showStatus('CALM')" class="status-button">CALM</button>
+        <button onclick="showStatus('CAREFUL')" class="status-button">CAREFUL</button>
+        <button onclick="showStatus('DOCILE')" class="status-button">DOCILE</button>
+        <button onclick="showStatus('GENTLE')" class="status-button">GENTLE</button>
+        <button onclick="showStatus('HARDY')" class="status-button">HARDY</button>
+        <button onclick="showStatus('HASTY')" class="status-button">HASTY</button>
+        <button onclick="showStatus('IMPISH')" class="status-button">IMPISH</button>
+        <button onclick="showStatus('JOLLY')" class="status-button">JOLLY</button>
+        <button onclick="showStatus('LONELY')" class="status-button">LONELY</button>
+        <button onclick="showStatus('LAX')" class="status-button">LAX</button>
+        <button onclick="showStatus('MILD')" class="status-button">MILD</button>
+        <button onclick="showStatus('MODEST')" class="status-button">MODEST</button>
+        <button onclick="showStatus('NAUGHTY')" class="status-button">NAUGHTY</button>
+        <button onclick="showStatus('NAIVE')" class="status-button">NAIVE</button>
+        <button onclick="showStatus('QUIET')" class="status-button">QUIET</button>
+        <button onclick="showStatus('QUIRKY')" class="status-button">QUIRKY</button>
+        <button onclick="showStatus('RELAXED')" class="status-button">RELAXED</button>
+        <button onclick="showStatus('RASH')" class="status-button">RASH</button>
+
+
+        <button onclick="showStatus('SASSY')" class="status-button">SASSY</button>
+        <button onclick="showStatus('SERIOUS')" class="status-button">SERIOUS</button>
+        <button onclick="showStatus('TIMID')" class="status-button">TIMID</button>
+        <div id="status-output" style="margin-top: 10px;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
