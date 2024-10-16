@@ -102,10 +102,10 @@ function showStatus(status) {
             output = "ניטרלי";
             break;
         case 'NAUGHTY':
-            output = "מעלה: התקפה, מוריד: הגנה קריטית";
+            output = "מעלה: התקפה, מוריד: הגנה מיוחדת";
             break;
         case 'ADAMANT':
-            output = "מעלה: התקפה, מוריד: התקפה קריטית";
+            output = "מעלה: התקפה, מוריד: התקפה מיוחדת";
             break;
              case 'DOCILE':
             output = "ניטרלי";
@@ -117,40 +117,40 @@ function showStatus(status) {
             output = "מעלה: הגנה, מוריד: התקפה";
             break;
         case 'IMPISH':
-            output = "מעלה: הגנה, מוריד: התקפה קריטית";
+            output = "מעלה: הגנה, מוריד: התקפה מיוחדת";
             break;
             case 'RELAXED':
             output = "מעלה: הגנה, מוריד: מהירות";
             break;
         case 'LAX':
-            output = "מעלה: הגנה, מוריד: הגנה קריטית";
+            output = "מעלה: הגנה, מוריד: הגנה מיוחדת";
             break;
         case 'MILD':
-            output = "מעלה: התקפה קריטית, מוריד: הגנה";
+            output = "מעלה: התקפה מיוחדת, מוריד: הגנה";
             break;
         case 'MODEST':
-            output = "מעלה: התקפה קריטית, מוריד: התקפה";
+            output = "מעלה: התקפה מיוחדת, מוריד: התקפה";
             break;
              case 'RASH':
-            output = "מעלה: התקפה קריטית, מוריד: הגנה קריטית";
+            output = "מעלה: התקפה מיוחדת, מוריד: הגנה מיוחדת";
             break;
         case 'HARDY':
             output = "ניטרלי";
             break;
         case 'CALM':
-            output = "מעלה: הגנה קריטית, מוריד: התקפה";
+            output = "מעלה: הגנה מיוחדת, מוריד: התקפה";
             break;
         case 'QUIET':
-            output = "מעלה: התקפה קריטית, מוריד: מהירות";
+            output = "מעלה: התקפה מיוחדת, מוריד: מהירות";
             break;
              case 'CAREFUL':
-            output = "מעלה: הגנה קריטית, מוריד: התקפה קריטית";
+            output = "מעלה: הגנה מיוחדת, מוריד: התקפה מיוחדת";
             break;
         case 'GENTLE':
-            output = "מעלה: הגנה קריטית, מוריד: הגנה";
+            output = "מעלה: הגנה מיוחדת, מוריד: הגנה";
             break;
         case 'SASSY':
-            output = "מעלה: הגנה קריטית, מוריד: מהירות";
+            output = "מעלה: הגנה מיוחדת, מוריד: מהירות";
             break;
         case 'SERIOUS':
             output = "ניטרלי";
@@ -162,10 +162,10 @@ function showStatus(status) {
             output = "מעלה: מהירות, מוריד: התקפה";
             break;
         case 'NAIVE':
-            output = "מעלה: מהירות, מוריד: הגנה קריטית";
+            output = "מעלה: מהירות, מוריד: הגנה מיוחדת";
             break;
         case 'JOLLY':
-            output = "מעלה: מהירות, מוריד: התקפה קריטית";
+            output = "מעלה: מהירות, מוריד: התקפה מיוחדת";
             break;
         case 'QUIRKY':
             output = "ניטרלי";
